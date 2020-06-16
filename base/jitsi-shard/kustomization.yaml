@@ -9,7 +9,7 @@ resources:
 - prosody-configmap.yaml
 - web-configmap.yaml
 - prosody-service.yaml
-- jvb/
+# - jvb/kustomization.yaml
 
 commonLabels:
   scope: jitsi

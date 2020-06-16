@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - jitsi.messenger.schule
+    - jitsi.beyondcloud.com.br
     secretName: jitsi-messenger-schule-tls
   rules:
-    - host: jitsi.messenger.schule
+    - host: jitsi.beyondcloud.com.br
       http:
         paths:
         # only match /grafana and paths under /grafana/

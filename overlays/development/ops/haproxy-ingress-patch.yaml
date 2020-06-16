@@ -6,10 +6,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - jitsi.dev.messenger.schule
+    - jitsi.dev.beyondcloud.com.br
     secretName: jitsi-messenger-schule-tls
   rules:
-    - host: jitsi.dev.messenger.schule
+    - host: jitsi.dev.beyondcloud.com.br
       http:
         paths:
           - path: /
